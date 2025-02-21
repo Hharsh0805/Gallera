@@ -47,7 +47,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <p className="text-white/70 mb-2">No 2 Michika street off Ahmadu Bello way Area 11 Garki Abuja Nigeria</p>
             <p className="text-white/70 mb-2">Phone: +234 803 974 3274 | +234 813 538 9424</p>
-            <p className="text-white/70 mb-2">Email: Galleraproperties@gmail.com</p>
+            <p className="text-white/70 mb-2">Email: galleraproperties@gmail.com</p>
           </div>
         </div>
         <div className="border-t border-white/10 mt-12 pt-8 text-center">

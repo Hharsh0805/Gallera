@@ -47,7 +47,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <Link href="/" className={`${jetbrainsMono.className} text-2xl font-bold text-[#3D0C11] transition-all duration-300 hover:scale-105`}>
-            Galera
+            Gallera
           </Link>
           <div className="hidden md:flex space-x-8 items-center">
             {navItems.map((item) => (

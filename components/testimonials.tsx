@@ -7,17 +7,17 @@ import { Quote } from "lucide-react"
 const testimonials = [
   {
     quote:
-      "Modia Properties made finding our dream home an absolute pleasure. Their expertise and dedication are unmatched.",
+      "Gallera Properties made finding our dream home an absolute pleasure. Their expertise and dedication are unmatched.",
     author: "Sarah & Tom Johnson",
   },
   {
     quote:
-      "As an investor, I've worked with many real estate firms, but Galera Properties stands out for their professionalism and market insights.",
+      "As an investor, I've worked with many real estate firms, but Gallera Properties stands out for their professionalism and market insights.",
     author: "David Chen",
   },
   {
     quote:
-      "The team at Galera Properties went above and beyond to ensure a smooth and successful property sale. Highly recommended!",
+      "The team at Gallera Properties went above and beyond to ensure a smooth and successful property sale. Highly recommended!",
     author: "Amina Okafor",
   },
 ]

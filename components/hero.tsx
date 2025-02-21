@@ -31,7 +31,7 @@ export default function Hero() {
     <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
       <div className="max-w-3xl space-y-6">
         <h1 className={`${libreFranklin.className} text-4xl md:text-6xl font-bold text-white leading-tight tracking-tight animate-fade-up`}>
-          Galera Properties & Consultancy
+          Gallera Properties & Consultancy
         </h1>
         <p className={`${libreFranklin.className} text-lg md:text-xl text-white/80 max-w-xl animate-fade-up animation-delay-100`}>
           Let our expert guide you through the maze of real estate and help you find the perfect home you deserve.
