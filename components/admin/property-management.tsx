@@ -1,3 +1,4 @@
+"use client";
 import { useState, useEffect } from "react"
 import { Plus, Search, Edit, Trash2, Eye, EyeOff, ChevronDown, ChevronUp } from "lucide-react"
 import { Input } from "@/components/ui/input"
