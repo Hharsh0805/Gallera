@@ -77,7 +77,7 @@ export async function getProperties() {
 }
 
 export async function addProperty(formData: FormData) {
-  const property = {
+  const property: Property = {
     id: Date.now().toString(),
     title: formData.get("title") as string,
     price: formData.get("price") as string,
@@ -87,7 +87,7 @@ export async function addProperty(formData: FormData) {
     bathrooms: Number.parseInt(formData.get("bathrooms") as string),
     area: Number.parseInt(formData.get("area") as string),
     type: formData.get("type") as string,
-    status: "active",
+    status: "active" as const,
     createdAt: new Date().toISOString().split("T")[0],
   }
 
@@ -142,4 +142,3 @@ export async function togglePropertyStatus(id: string) {
   revalidatePath("/properties")
   return { success: true }
 }
-

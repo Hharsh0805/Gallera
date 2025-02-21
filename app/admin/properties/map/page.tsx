@@ -6,6 +6,7 @@ import { Input } from '@/components/ui/input'
 import { MapPin, Bed, Bath, Maximize, MoreHorizontal } from 'lucide-react'
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
+import { cn } from '@/lib/utils'
 
 // Dynamically import the map component to avoid SSR issues
 const Map = dynamic(() => import('@/components/map'), { ssr: false })
@@ -110,7 +111,10 @@ export default function PropertyListingMap() {
                   <div className="flex-1">
                     <div className="flex items-start justify-between">
                       <h3 className="font-semibold">{property.title}</h3>
-                      <button className="text-gray-400 hover:text-gray-600">
+                      <button 
+                        className="text-gray-400 hover:text-gray-600"
+                        aria-label={`More options for ${property.title}`}
+                      >
                         <MoreHorizontal size={20} />
                       </button>
                     </div>
@@ -150,4 +154,3 @@ export default function PropertyListingMap() {
     </AdminLayout>
   )
 }
-
