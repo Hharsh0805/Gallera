@@ -10,19 +10,20 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Gallera Properties</h3>
             <p className="text-white/70 mb-4">Your trusted real estate advisors, guiding you to your perfect home.</p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-white/70 hover:text-white transition-colors">
-                <Facebook className="h-5 w-5" />
-              </Link>
-              <Link href="#" className="text-white/70 hover:text-white transition-colors">
-                <Twitter className="h-5 w-5" />
-              </Link>
-              <Link href="#" className="text-white/70 hover:text-white transition-colors">
-                <Instagram className="h-5 w-5" />
-              </Link>
-              <Link href="#" className="text-white/70 hover:text-white transition-colors">
-                <Linkedin className="h-5 w-5" />
-              </Link>
-            </div>
+  <Link href="https://www.facebook.com/harsh.sehgal1586" target="_blank" className="text-white/70 hover:text-white transition-colors">
+    <Facebook className="h-5 w-5" />
+  </Link>
+  <Link href="https://x.com/Harsh_Sehgal08" target="_blank" className="text-white/70 hover:text-white transition-colors">
+    <Twitter className="h-5 w-5" />
+  </Link>
+  <Link href="https://www.instagram.com/_harsh_sehgal?igsh=MWRvNmRicjFjcW9ubw==" target="_blank" className="text-white/70 hover:text-white transition-colors">
+    <Instagram className="h-5 w-5" />
+  </Link>
+  <Link href="https://www.linkedin.com/in/harsh-sehgal15/" target="_blank" className="text-white/70 hover:text-white transition-colors">
+    <Linkedin className="h-5 w-5" />
+  </Link>
+</div>
+
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
