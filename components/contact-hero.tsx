@@ -1,8 +1,6 @@
 "use client"
-
 import { motion } from "framer-motion"
 import Image from "next/image"
-
 export default function ContactHero() {
   return (
     <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
